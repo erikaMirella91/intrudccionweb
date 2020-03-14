@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario select</title>
+</head>
+<body>
+    <fieldset>
+        <legend>Nombre del formulario</legend>
+        <form action= "/intrudccionweb/guardado.html" method="GET">
+        <select name="carros" id="carros" required>
+            <option value= "" >Seleccione un carro...</option>
+            <option value= "1" >Volvo</option>
+            <option value= "BMW">BMW</option>
+            <option value = "audi" >Audi</option>
+        </select>
+        <br>
+    
+        <select name="carros2" id="carros2" required>
+            <option value= "1" >Volvo</option>
+            <option value= "BMW" selected>BMW</option>
+            <option value = "audi" >Audi</option>
+        </select>
+        <br> <br>
+        <label for="Comentarios"><comentarios/label>
+            <br>
+            <textarea name="comentarios" id="comentarios" 
+            cols="10" rows="5"
+            placeholder="Ingresar un comentario">Aqui va el valor del textarea</textarea>
+            <br><br>
+    
+        <input type="submit"value="Guardar"></fieldset>
+    
+</form>
+</body>
+</html>
