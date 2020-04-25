@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selector pseudo-clase</title>
+    <style>
+        /*link no visitado*/
+        a:any-link {
+            color: red;
+        }
+        /*link visitado*/
+        a:visited{
+            color: green;
+        }
+        /*cursor sobre el link */
+        a:hover{
+            color: hotpink;
+        }
+        /*link seleccionado*/
+        a:active{
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+   <p><b><a href="https://www.google.com/">Google</a></b></p> 
+</body>
+</html>
