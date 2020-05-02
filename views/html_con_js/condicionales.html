@@ -11,10 +11,18 @@
 
          var edad = Number(prompt("Ingresa su edad"));
 
-         if (edad > 20){
-              console.log("Tu edad es mayor a 20");
-         } else {
-             console.long("Tienes 20 años o menos");
+         if ((edad => 0) && (edad < 20)){
+              console.log("Tu edad es memor a 20");
+         } else if ((edad >= 20) && (edad <=40)){
+             console.log("Tienes entre 20 o 40 años");
+         } else{
+             console.log ("Tienes mas de 40 años");
+         }
+             
+         //switch
+         var date  = new Date() .getDate()
+         switch(date){
+
          }
     
     </script>
