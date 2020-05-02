@@ -41,15 +41,16 @@ console.long(lista[1]);
 console.long(lista.length);
 console.long(lista[lista.length-1]);
 
-//opjeto o tupla
 
-var persona ={
-    nombre:  "walter",
-    apellido: "white",
-    aficiones: ["css", "html," "javascript"],
-    inscrito: 1,
+
+// objeto o tupla
+var persona = {
+    nombre:     "Walter",
+    apellido:   "White",
+    aficiones:  ["css", "html", "javascript"],
+    inscrito:   true,
 }
 
-console.long(persona.nombre);//walter
-console.long(persona.aficiones[1];)//html
-console.long(persona.aficiones[persona.aficiones.length-1]);//javascript
+console.log(persona.nombre);        // walter
+console.log(persona.aficiones[1]);  // html
+console.log(persona.aficiones[persona.aficiones.length-1]);   //javascript
